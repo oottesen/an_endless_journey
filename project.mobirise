@@ -16,13 +16,13 @@
         "subtitleFont": "Lora",
         "textFont": "Raleway",
         "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 19,
+    "uniqCompNum": 21,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -43,6 +43,14 @@
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "P": {
+              "text-align": "right"
+            },
+            "H3": {
+              "text-align": "right"
+            }
+          },
           "_anchor": "msg-box5-h",
           "_params": {
             "imageSize": "50",
@@ -89,33 +97,25 @@
           },
           "title": "An endless journey",
           "text": "Two identical twins who fled Syria at 17 and faced death while travelling to their family in the UK have been left devastated after the Home Office has denied them residency in the UK, treating them as \"criminals”..",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_styles": {
-            "P": {
-              "text-align": "right"
-            },
-            "H3": {
-              "text-align": "right"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
           "_anchor": "content1-1",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Jamal and Sulaiman Dabsheh said they arrived in the UK in April last year, after crossing the “death-pass” across the Mediterranean sea and spending days stranded in the snow in Macedonia.</span><br></p><p>&nbsp;</p><p>They said they were determined to make it to London, as their two older brothers, both UK citizens, were waiting for them there.</p><p>&nbsp;</p><p>“Staying with my family is everything to me. What I’ve been through should be enough,” Jamal said. “We didn’t come here to get money, we came here to be safe, to be with our brothers and build our future.</p><p><br></p><p>“[In my hometown] I will get killed by a bomb, but if I go to Germany the loss of our family will be like dying a thousand times.”</p><p>&nbsp;</p><p>Sulaiman said he had wanted to flee Syria ever since planes bombed the classroom next to his at school, killing two of his close friends.</p><p><br></p><p>Soon after, when he and his brother were approaching their final exams in high school, local police demanded they join the military and fight in the war.</p><p>&nbsp;</p><p>By then, they both knew becoming a Syrian soldier meant to kill or be killed, as their nephew had been shot by his own army general for refusing to kill on command.</p><p>&nbsp;</p><p>“I didn’t want to be part of the war in Syria. I wanted peace, so I left,” Jamal said. “The people who are killed in Syria are reduced to a number in the newspaper or on the TV screen. The last thing I wanted was to become one of them.”</p>",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            }
-          }
+          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Jamal and Sulaiman Dabsheh said they arrived in the UK in April last year, after crossing the “death-pass” across the Mediterranean sea and spending days stranded in the snow in Macedonia.</span><br></p><p>&nbsp;</p><p>They said they were determined to make it to London, as their two older brothers, both UK citizens, were waiting for them there.</p><p>&nbsp;</p><p>“Staying with my family is everything to me. What I’ve been through should be enough,” Jamal said. “We didn’t come here to get money, we came here to be safe, to be with our brothers and build our future.</p><p><br></p><p>“[In my hometown] I will get killed by a bomb, but if I go to Germany the loss of our family will be like dying a thousand times.”</p><p>&nbsp;</p><p>Sulaiman said he had wanted to flee Syria ever since planes bombed the classroom next to his at school, killing two of his close friends.</p><p><br></p><p>Soon after, when he and his brother were approaching their final exams in high school, local police demanded they join the military and fight in the war.</p><p>&nbsp;</p><p>By then, they both knew becoming a Syrian soldier meant to kill or be killed, as their nephew had been shot by his own army general for refusing to kill on command.</p><p>&nbsp;</p><p>“I didn’t want to be part of the war in Syria. I wanted peace, so I left,” Jamal said. “The people who are killed in Syria are reduced to a number in the newspaper or on the TV screen. The last thing I wanted was to become one of them.”</p>"
         },
         {
           "_tags": [
@@ -198,6 +198,145 @@
             "bgColor": "#fff"
           },
           "text": "<p>Having experienced the way refugees are treated around Europe and the Middle East, Jamal said he wanted to become a solicitor.</p><p>&nbsp;</p><p>Sulaiman dreams of becoming a dentist, and wanted to study at a UK university, as he had heard the courses here were much better than the ones in Syria.</p><p>&nbsp;</p><p>“If the war never happened, I would have studied in Syria and become a doctor. My family would have been together,” he said. “I would have built a house and saved up for a car.</p><p>&nbsp;</p><p>“[My mother] still thinks I’m with my family. I told her I ran out of credit on my phone. No one in my family has been to prison or detention. She thinks I’m happy, that everything is okay.</p><p>&nbsp;</p><p>“I lost my country. I don’t want to lose my family as well.”</p><p>&nbsp;</p><p>A spokesman for the Home Office said: “The UK has a proud history of proud history of providing protection to those who need it.</p><p>&nbsp;</p><p>&nbsp;“But it is also right that we uphold the principle that those seeking asylum should ask for protection in the first safe country they reach.&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">Where someone has claimed asylum in another country, we will seek to return them there.”</span></p><p><br></p><p>They were not able to comment on the twins' individual case, as legal proceedings are still in progress.</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-k",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showText": false,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "title": "Related articles"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-j",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "2",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-04-22-at-18-600x390.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "UNICEF: Donate and help protect a Syrian child",
+          "subtitle1": "External source",
+          "caption1": "Right now, more than 8 million Syrian children are in danger. They face unspeakable violence, a lack of food, health care and clean water, and an increased risk of disease.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://www.unicef.org.uk/donate/syria/?gclid=CjwKEAjw_uvHBRDUkumF0tLFp3cSJACAIHMYe6EcFysANZPYIddtHd9Q38482JoqR1hVRCNrhA3IGhoCW7_w_wcB&amp;sissr=1\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/6b39b3-009c64b5dfe64d0a8a6e1e49a5e565cd-mv2-600x388.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Out of the nightmare",
+          "subtitle2": "Profiles",
+          "caption2": "\u001bOn the 12th of December 2013, the motorway in Aleppo was hit by a cluster of bombs. One of its victims was Maan Alrahim, a young father of three who would spend the next year on the verge of death.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://oottesen.github.io/out_of_the_nightmare/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
